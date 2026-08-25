@@ -7,7 +7,7 @@ import os
 # TELEGRAM CONFIGURATION
 # ============================================================
 
-TELEGRAM_BOT_TOKEN = "PUT_YOUR_NEW_BOT_TOKEN_HERE"
+TELEGRAM_BOT_TOKEN = "8857388515:AAGbQd7m7rk3AKYULqH6FhKTTMxlgwsixc8"
 TELEGRAM_CHAT_ID = "PUT_YOUR_CHAT_ID_HERE"
 
 # ============================================================
@@ -15,7 +15,7 @@ TELEGRAM_CHAT_ID = "PUT_YOUR_CHAT_ID_HERE"
 # ============================================================
 
 UPPSC_URL = "https://uppsc.up.nic.in/Home"
-STATE_FILE = "seen_results.json"
+STATE_FILE = "974914763"
 
 
 def send_telegram(message):
