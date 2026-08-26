@@ -8,14 +8,14 @@ import os
 # ============================================================
 
 TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
-TELEGRAM_CHAT_ID = "PUT_YOUR_CHAT_ID_HERE"
+TELEGRAM_CHAT_ID = "974914763"
 
 # ============================================================
 # UPPSC CONFIGURATION
 # ============================================================
 
 UPPSC_URL = "https://uppsc.up.nic.in/Home"
-STATE_FILE = "974914763"
+STATE_FILE = "seen_results.json"
 
 
 def send_telegram(message):
@@ -216,8 +216,7 @@ def main():
 
     save_seen(seen)
 
+send_telegram("✅ UPPSC Monitor Telegram test successful!")
 
 if __name__ == "__main__":
     main()
-
-send_telegram("✅ UPPSC Monitor Telegram test successful!")
