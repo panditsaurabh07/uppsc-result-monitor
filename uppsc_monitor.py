@@ -7,7 +7,7 @@ import os
 # TELEGRAM CONFIGURATION
 # ============================================================
 
-TELEGRAM_BOT_TOKEN = "8857388515:AAGbQd7m7rk3AKYULqH6FhKTTMxlgwsixc8"
+TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 TELEGRAM_CHAT_ID = "PUT_YOUR_CHAT_ID_HERE"
 
 # ============================================================
@@ -219,3 +219,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+send_telegram("✅ UPPSC Monitor Telegram test successful!")
